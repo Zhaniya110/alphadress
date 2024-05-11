@@ -183,12 +183,10 @@ input[type="color"]:focus,
   .hero-inner .w-50  .btn-group-a{
     justify-content: center;
   }
+  .delivery-inner .w-50{
+    width: 100% !important;
+  }
 }
 
 .hero-seс {min-height: 670.5px;}
 
-
-@media only screen and (min-width: 480px) {
-  .header-desktop{
-    display: none !important;
-  }}
