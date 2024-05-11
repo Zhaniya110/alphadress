@@ -142,3 +142,7 @@ html, body, .header{
  max-width: 1920px;
 
 }
+
+.btn-light{
+  --bs-btn-bg: white !important; 
+}
