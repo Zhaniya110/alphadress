@@ -186,3 +186,9 @@ input[type="color"]:focus,
 }
 
 .hero-seс {min-height: 670.5px;}
+
+
+@media only screen and (min-width: 480px) {
+  .header-desktop{
+    display: none !important;
+  }}
