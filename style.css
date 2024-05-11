@@ -186,7 +186,14 @@ input[type="color"]:focus,
   .delivery-inner .w-50{
     width: 100% !important;
   }
+  #product{
+    width: 50%;
+  }
 }
 
 .hero-seс {min-height: 670.5px;}
 
+#product{
+  width: 25%;
+  padding: 10px;
+}
