@@ -1,3 +1,5 @@
+
+
 .icon-filter {
     background: url('/icons/sliders.svg');
     background-repeat: no-repeat;
@@ -92,7 +94,7 @@ input[type="color"]:focus,
   background-color: white;
 }
 
-html, body, .header, .hero-sec{
+.header-desktop, .hero-sec{
   background-color: #F7F7F9;
 }
 
@@ -146,3 +148,41 @@ html, body, .header, .hero-sec{
 .btn-light{
   --bs-btn-bg: white !important; 
 }
+
+@media only screen and (max-width: 480px) {
+  .header-desktop{
+    display: none !important;
+  }
+
+ 
+  h1{
+    font-size: 30px;
+  }
+  
+  p{
+    font-size: 16px;
+  }
+
+  .hero-inner .w-50{
+    width: 100% !important;
+    padding: 16px;
+    text-align: center;
+  }
+  .btn-lg{
+    font-size: 16px;
+  }
+
+  button{
+    font-size: 16px !important;
+  }
+  .hero-inner{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hero-inner .w-50  .btn-group-a{
+    justify-content: center;
+  }
+}
+
+.hero-seс {min-height: 670.5px;}
