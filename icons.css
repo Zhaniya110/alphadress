@@ -1,0 +1,84 @@
+.icon-profile{
+    background: url('/icons/profile.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-bag{
+    background: url('/icons/bag.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-heart{
+    background: url('/icons/heart.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-delivery{
+    background: url('/icons/delivery.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-phone{
+    background: url('/icons/phone.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}
+
+
+.icon-email{
+    background: url('/icons/email.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}

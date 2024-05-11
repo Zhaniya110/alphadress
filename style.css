@@ -1,0 +1,144 @@
+.icon-filter {
+    background: url('/icons/sliders.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-search {
+    background: url('/icons/search.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+input[type=text] {
+    
+    background-image: url('/icons/search.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding:10px 10px 10px 40px;
+    border-radius: 10px;
+  }
+
+
+  input[name=search]{
+    border-radius: 10px;
+    box-shadow: 0px 3.3px 3.3px rgb(0,0,0,0.04);
+    border: none;
+    display: inline-block;
+    
+  }
+
+  textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  background-color: rgb(0,0,0,0.04);
+    box-shadow: 0px 3.3px 3.3px rgb(0,0,0,0.05);
+  
+  outline: 0 none;
+}
+
+
+.btn-primary{
+  background-color: #1483C2 !important;
+ 
+
+}
+
+
+.btn-primary:hover{
+  background-color: #0D6EFD !important;
+ 
+}
+
+
+.account-icon{
+  width: 53px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+}
+
+html, body, .header{
+  background-color: #F7F7F9;
+}
+
+.search-input{flex-basis: 100%;
+  width: max-content;}
+
+  button .filter{
+    width: min-content;
+  }
+
+
+
+  .header-container {
+    width: 1280px;
+    /* Other styles */
+}
+
+/* Media query for mobile and tablet devices */
+@media (max-width: 991.98px) {
+    .header-container {
+        width: 90%;
+
+    }
+}
+
+.header ul li{
+  list-style: none;
+  color: #2B2B2B;
+}
+
+
+.header ul li a{
+  
+  color: #2B2B2B;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header ul li a:hover{
+  
+  color: #0D6EFD;
+  text-decoration: none;
+}
+
+.header .container-fluid{
+ padding-top: 29px 40px 32px 40px;
+ max-width: 1920px;
+
+}
