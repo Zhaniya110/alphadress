@@ -82,3 +82,17 @@
     height: 20px;
     width: 20px;
 }
+
+.icon-catalog-mobile{
+    background: url('/icons/Group\ 1000000743.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* stretch the background to cover the whole element */
+
+    /* 
+       still inline, but has block features
+       meaning height and width can be set
+    */
+    display: inline-flex;
+    height: 53px;
+    width: 53px;
+}
