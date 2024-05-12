@@ -1,71 +1,227 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.container {
-  position: relative;
-  width: 200px;
-  overflow: hidden; /* Ensure overflow is hidden */
-}
-
-.layer-1 {
-  display: block;
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
-  background-color: #131313;
-  border-radius: 20px;
-}
-
-.overlay {
-  position: absolute;
-  top: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 200px;
-  height: 200px;
-  opacity: 0;
-  transition: .5s   ;
-  background-color: #008CBA;
-  border-radius: 20px;
-  color: white;
-}
-.text-2{
-    color: #008CBA;
-    font-size: 20px;
-  
-  
-}
-.container:hover .overlay {
-  opacity: 1;
-  top: 0;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alpha Dress</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="icons.css">
+ <link rel="stylesheet" href="framew.css">
 </head>
+
 <body>
+    <div class="d-xl-none header-mobile d-lg-none d-xl-block" style="background-color: #F7F7F9;">
+        <div class="container d-flex justify-content-between align-items-center p-2">
+            <div class="menu-hamburger">
+                <img src="/icons/Hamburger.svg" alt="">
+            </div>
 
-<div class="container">
- <div class="layer-1">
-    <span class="text-2">Защита авторских прав</span>
- </div>
-  <div class="overlay">
-    <span class="text">Защита авторских прав</span>
-  </div>
-</div>
+            <div class="logo-col">
+                <img class="img-fluid" src="/images/logo.png" alt="" style="width: 182px;">
+            </div>
+            <div class="bag account-icon">
+                <i class="icon-bag"></i>
+            </div>
+        </div>
 
+        <div class="container d-flex justify-content-between gap-2">
+            <div>
+
+                <form>
+                    <input class="" type="text" name="search" placeholder="Ищете платье?">
+                </form>
+            </div>
+            <div>
+                <i class="icon-catalog-mobile"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="header-desktop">
+        <div class="pt-4 d-flex justify-content-center align-items-center flex-wrap ">
+            <div class="container-fluid d-flex align-items-center justify-content-between gap-5">
+                <div class="logo d-flex align-items-center">
+                    <img src="  " alt="" srcset="">
+                    <h2>Alpha Dress</h2>
+                </div>
+
+                <div class="filter-search w-100 gap-1 d-flex">
+                    <button class="filter btn btn-primary d-flex align-items-center gap-1">
+                        КАТАЛОГ<i class="icon-filter"></i>
+                    </button>
+                    <form style="flex: 1;">
+                        <input class="form-control border" type="text" name="search" placeholder="Ищете платье?">
+                    </form>
+
+                </div>
+
+                <div class="account d-flex gap-2">
+                    <div class="profile account-icon ">
+                        <i class="icon-profile"></i>
+                    </div>
+                    <div class="delivery account-icon">
+                        <i class="icon-delivery"></i>
+                    </div>
+                    <div class="heart account-icon">
+                        <i class="icon-heart"></i>
+                    </div>
+                    <div class="bag account-icon">
+                        <i class="icon-bag"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="d-flex mt-3 gap-2">
+                    <button class="filter btn btn-primary d-flex align-items-center gap-1">
+                        женщинам
+                    </button>
+                    <button class="filter btn bg-white d-flex align-items-center gap-1">
+                        мужчинам
+                    </button>
+
+                    <button class="filter btn bg-white d-flex align-items-center gap-1">
+                        детям
+                    </button>
+
+                </div>
+
+
+                <div class="d-flex mt-3 gap-2">
+
+                    <button class="filter btn bg-white d-flex align-items-center gap-1">
+                        Одежда
+                    </button>
+
+                    <button class="filter btn bg-white d-flex align-items-center gap-1">
+                        Ааксессуары
+                    </button>
+                    <button class="filter btn bg-white d-flex align-items-center gap-1">
+                        Спецодежда
+                    </button>
+                    <button class="filter btn bg-white d-flex align-items-center gap-1">
+                        бренды
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cart-cont" style="background-color: #F7F7F9;">
+
+        <div class="container  p-5 d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-column gap-5">
+                <div class="item-1 d-flex flex-row gap-2">
+
+                    <img class=" rounded shadow" src="/images/beanie-2-300x300.jpg" alt="" style="width: 200px;">
+
+                    <div class="product-description">
+                        <h5>Album
+                        </h5>
+                        <p>$15.00</p>
+                        <form class="cart d-flex gap-2" action="#" method="post">
+
+                            <button class="btn btn-primary">-</button>
+                            <div class="quantity">
+                                <input type="number" value="1" class="p-2" min="1" max="" style="width: 50px;">
+                            </div>
+                            <button class="btn btn-primary">+</button>
+                            <button type="submit" class="btn btn-primary">Add to
+                                cart</button>
+
+                        </form>
+                    </div>
+
+                </div>
+                <div class="item-2 d-flex flex-row gap-2">
+
+                    <img class=" rounded shadow" src="/images/beanie-2-300x300.jpg" alt="" style="width: 200px;">
+
+                    <div class="product-description">
+                        <h5>Album
+                        </h5>
+                        <p>$15.00</p>
+                        <form class="cart d-flex gap-2" action="#" method="post">
+
+                            <button class="btn btn-primary">-</button>
+                            <div class="quantity">
+                                <input type="number" value="1" class="p-2" min="1" max="" style="width: 50px;">
+                            </div>
+                            <button class="btn btn-primary">+</button>
+                            <button type="submit" class="btn btn-primary">Add to
+                                cart</button>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="d-flex flex-column p-5">
+
+                <h1>Total: <span> $30</span></h1>
+                <button class="btn btn-lg btn-primary w-100">Оплатить</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!-- Footer-->
+    <div class="footer" style="background-color: #F7F7F9;">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+                <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <svg class="bi me-2" w idth="40" height="32">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <p class="text-muted">© 2022</p>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
 </body>
+
 </html>
