@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 200px;
+  overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.layer-1 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #131313;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  transition: .5s   ;
+  background-color: #008CBA;
+  border-radius: 20px;
+  color: white;
+}
+.text-2{
+    color: #008CBA;
+    font-size: 20px;
+  
+  
+}
+.container:hover .overlay {
+  opacity: 1;
+  top: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+ <div class="layer-1">
+    <span class="text-2">Защита авторских прав</span>
+ </div>
+  <div class="overlay">
+    <span class="text">Защита авторских прав</span>
+  </div>
+</div>
+
+</body>
+</html>
